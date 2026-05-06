@@ -1,4 +1,4 @@
-# <img src="./puerta18-logo.webp" align="center" height="50px"> PMA/Shaders
+# <img src="./readme-assets/puerta18-logo.webp" align="center" height="50px"> PMA/Shaders
 
 Este repositorio es un fork del ![Repositorio PMA de Puerta 18](https://github.com/FacuBritez/PMA) enfocado en el apartado de Shaders.
 
@@ -21,7 +21,5 @@ Este repositorio es un fork del ![Repositorio PMA de Puerta 18](https://github.c
   - Generar contraste dinámico para generar profundidad
 
 ## 💻 Stack
-- C#
-  - Controlar shaders
-- HLSL
-  - Crear Shaders  
+-  <img src="./readme-assets/Csharp_Logo.webp" align="center" height="20px"> C#
+- <img src="./readme-assets/Unity_logo.webp" align="center" height="20px"> HLSL
