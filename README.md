@@ -1,6 +1,6 @@
 # <img src="./readme-assets/puerta18-logo.webp" align="center" height="50px"> PMA/Shaders
 
-Este repositorio es un fork del ![Repositorio PMA de Puerta 18](https://github.com/FacuBritez/PMA) enfocado en el apartado de Shaders.
+Este repositorio es un fork del [Repositorio PMA de Puerta 18](https://github.com/FacuBritez/PMA) enfocado en el apartado de Shaders.
 
 
 ## 📂 Estructura
