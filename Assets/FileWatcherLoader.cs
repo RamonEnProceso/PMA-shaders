@@ -10,6 +10,25 @@ public class FileWatcherLoader : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("pantallas detectadas " + Display.displays.Length);
+        for (int i = 1; i < Display.displays.Length; i++)
+        {
+            Display.displays[i].Activate();
+        }
+
+Application.runInBackground = true;
+
+
+
+
+        // Si estás en el editor, usa una carpeta en la raíz del proyecto.
+        // Si es el juego exportado, creará la carpeta al lado del archivo .exe
+        if (!Application.isEditor)
+        {
+            watchFolder = Path.Combine(Path.GetDirectoryName(Application.dataPath), "WatchedImages");
+            Debug.Log("Juego exportado");
+        }
+
         if (!Directory.Exists(watchFolder))
             Directory.CreateDirectory(watchFolder);
 
